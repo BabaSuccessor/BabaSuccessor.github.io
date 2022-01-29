@@ -138,10 +138,9 @@ function gameStart() {
 function gameOver() {
     _gameOver = true;
     clearInterval(_gameTime);
-    setTimeout(function () {
-        GameLayerBG.className = '';
-        showGameScoreLayer();
-    }, 1500);
+    GameLayerBG.className = '';
+    showGameScoreLayer();
+    
 }
 
 
