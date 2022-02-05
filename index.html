@@ -1,12 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="static/image/icon.jpg">
+        <link rel="apple-touch-icon" href="static/image/icon.jpg">
         <meta charset="utf-8">
         <title>巴巴继承者的个人主页</title>
+        <style>
+            #top{
+                font-size:300%;
+                text-align: center;
+                padding-top:0.2em;
+                padding-bottom:0.2em;
+                margin-bottom: 0.5em;
+            }
+            #ico, #desc{
+                text-align: center;
+            }
+            #desc span{
+                display:inline-block;
+                width: 128px;
+                text-align: center;
+            }
+            #ico span, #desc span{
+                margin-left: 32px;
+                margin-right: 32px;
+            }
+            #ico span img{
+                border-radius: 16px;
+            }
+        </style>
     </head>
     <body>
-        <h1>巴巴继承者的个人主页</h1>
-        <a href="Gao/index.html">吃掉高洁</a>
-        <h2>网页待修改</h2>
+        <div id="top">
+            巴巴继承者的个人主页
+        </div>
+        <div id="ico">
+            <span><img src="static/image/bili.png" onclick="location.href='https://space.bilibili.com/352110790'"></span>
+        </div>
+        <div id="desc">
+            <span>B站个人空间</span>
+        </div>
     </body>
 </html>
