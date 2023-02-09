@@ -146,7 +146,7 @@ body {
 .t4,
 .t5 {
     background-size: auto 100%;
-    background-image: url(https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/d30272345092169dbe09aeee5b89afd26b1ca633.png);
+    background-image: url(./image/ClickBefore.png);
 }
 
 .tt1,
@@ -155,7 +155,7 @@ body {
 .tt4,
 .tt5 {
     background-size: auto 86%;
-    background-image: url(https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/123b6bedc310902d87d0141cadecebf40a543658.png);
+    background-image: url(./image/AfterClicking.png);
 }
 
 .bl {
